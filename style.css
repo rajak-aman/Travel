@@ -1,0 +1,239 @@
+
+
+.main-section{
+    width: 100%;
+    height: 100vh;
+    
+    background-image: url(hik.png);
+    background-size: cover;
+    background-position: bottom;
+
+
+}
+.navbar {
+    background-color: rgba(0, 0, 0, 0.516) !important;
+}
+.nav-link {
+    color: white !important;
+}
+
+.text-sec{
+    display: flex;
+    /* background-color: red; */
+    justify-content: center;
+}
+
+.text-sec h1{
+    font-size: 65px;
+    color: rgb(90, 69, 65);
+    letter-spacing: 30px;
+    font-weight: bolder;
+    animation-name:fadeInUpBig;
+    animation-duration: 2s;
+    
+}
+
+
+
+/* section-sec */
+
+.ten-container{
+    width: 100%;
+    height: 140vh;
+    display: flex;
+    align-items:center;
+    justify-content:start ;
+    flex-direction: column;
+    /* background-color: rgba(32, 231, 245, 0.601); */
+    
+    
+    }
+    .ten-cards
+    {
+        display: flex;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30PX;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    }
+
+    
+    .title-text{
+        display: flex;
+    align-items:center;
+    justify-content:center ;
+    flex-direction: column;
+    
+    
+    }
+    
+    .title-text h1{
+        font-size: 17px;
+        color: rgb(89, 234, 253);
+        margin: 30px;
+    
+    }
+    
+    .title-text h2{
+        font-size: 40px;
+    }
+
+    .card-palate button{
+         margin-right: 230px;
+    }
+    
+    .card-palate{
+        height: 100vh;
+        width: 30%;
+        border-radius: 40px;
+        display: flex;
+        align-items:center;
+        justify-content:center ;
+        flex-direction: column;
+        gap: 20px;
+        /* background-color: red; */
+        
+    
+    }
+    .card-palate img{
+        height: 45%;
+        width: 90%;
+        border-radius: 40px;
+        object-fit: cover;
+    
+    }
+    
+    .card-palate h2{
+        font-size: 25px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 20px;
+        
+        
+    }
+    .card-palate h3{
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+        padding-left: 20px;
+        padding-right: 20px;
+            font-family: "Rajdhani", sans-serif;
+            font-weight:lighter;
+            font-style: normal;
+            text-align: center;
+
+    }
+
+    .card-palate button{
+        display: flex;
+        /* background-color: aquamarine; */
+        align-items: center;
+        justify-content: center;
+        margin: 40px ;
+        height: 6vh;
+        border: none;
+        border-radius: 20px;
+        color: black;
+        background-color: rgba(128, 128, 128, 0.272);
+
+    }
+
+
+    /* footer */
+    .footer-section1 {
+        width: 100%;
+        min-height: 500px;
+        background-color: rgb(0, 147, 147);
+
+        display: flex;
+    }
+
+    .footer-branding {
+        width: 35%;
+        min-height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-right: 70px;
+        margin-bottom: 100px;
+        
+
+        
+    }
+
+    .zey h1{
+        color: white;
+    }
+
+    .zey p{
+        color: white;
+    }
+
+    .zey{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        
+    }
+
+    .zey p img{
+        
+            width: 25px;
+            margin-right: 20px;
+            
+        
+        }
+    
+
+    .footer-links {
+        width: 65%;
+        min-height: 500px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .footer-links  ul{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        gap: 25px;
+    }
+
+
+
+    .footer-links ul li a{
+        text-decoration: none;
+        color: white;
+    }
+
+
+
+    /* .lowest-part{ */
+        /* width: 100%; */
+        /* height: 50%;
+        font-size: 13px;
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        background-color: rgb(72, 195, 243);
+        border-top: 1px solid white;
+        color: white;
+        
+        
+    
+    } */
+
+
+    .image-2{
+        /* background-color: red; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+

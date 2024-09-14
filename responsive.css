@@ -1,0 +1,21 @@
+@media only screen and (max-width: 600px) {
+    body{
+        background-color: blue;
+
+        
+    }
+
+    .ten-cards{
+        width: 300%;
+        /* min-height: 100vh; */
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .footer-section{
+        height: auto;
+        flex-wrap: wrap;
+        flex-direction: column;
+        background-color: red;
+    }
+}
